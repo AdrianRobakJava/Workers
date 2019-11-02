@@ -41,7 +41,7 @@ public class LoginWindow {
 				try {
 					Parent root = FXMLLoader.load(getClass().getResource("PrimaryWindow.fxml"));
 					Stage stage = new Stage();
-					stage.setTitle("G³ówne okno");
+					stage.setTitle("GÅ‚Ã³wne okno");
 					Scene scene = new Scene(root);
 					scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 					stage.setScene(scene);
@@ -54,7 +54,7 @@ public class LoginWindow {
 			
 				correctLabel.setText("Zalogowano");
 			}else {
-				correctLabel.setText("B³êdne has³o lub login");
+				correctLabel.setText("BÅ‚Ä™dne hasÅ‚o lub login");
 			}
 		});
 	}
