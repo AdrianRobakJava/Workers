@@ -98,7 +98,7 @@ public class editEmployee {
 				correctLabel.setText("Gotowe");
 			}else {
 				correctLabel.setTextFill(Color.FIREBRICK);
-				correctLabel.setText("Musisz podaæ imiê, nazwisko oraz numer identyfikacyjny");
+				correctLabel.setText("Musisz podaÄ‡ imiÄ™, nazwisko oraz numer identyfikacyjny");
 			}
 		});
 	}
